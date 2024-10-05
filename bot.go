@@ -3,7 +3,6 @@ package telebot
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/k0kubun/pp/v3"
 	"io"
 	"log"
 	"net/http"
@@ -234,7 +233,6 @@ func (b *Bot) Start() {
 		select {
 		// handle incoming updates
 		case upd := <-b.Updates:
-			pp.Println(upd)
 			b.ProcessUpdate(upd)
 			// call to stop polling
 		case confirm := <-b.stop:
