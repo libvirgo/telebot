@@ -1,4 +1,4 @@
-module github.com/libvirgo/telebot.v3
+module github.com/libvirgo/telebot
 
 go 1.16
 

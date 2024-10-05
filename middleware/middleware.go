@@ -4,7 +4,7 @@ import (
 	"errors"
 	"log"
 
-	tele "github.com/libvirgo/telebot.v3"
+	tele "github.com/libvirgo/telebot"
 )
 
 // AutoRespond returns a middleware that automatically responds

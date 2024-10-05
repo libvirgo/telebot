@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	tele "github.com/libvirgo/telebot.v3"
+	tele "github.com/libvirgo/telebot"
 	"github.com/spf13/viper"
 )
 

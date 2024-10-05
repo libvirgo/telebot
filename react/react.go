@@ -1,7 +1,7 @@
 package react
 
 import (
-	tele "github.com/libvirgo/telebot.v3"
+	tele "github.com/libvirgo/telebot"
 )
 
 type Reaction = tele.Reaction
