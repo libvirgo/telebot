@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	tele "github.com/libvirgo/telebot.v3"
 	"github.com/stretchr/testify/assert"
-	tele "gopkg.in/telebot.v3"
 )
 
 //go:embed *

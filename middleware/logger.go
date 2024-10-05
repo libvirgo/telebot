@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"log"
 
-	tele "gopkg.in/telebot.v3"
+	tele "github.com/libvirgo/telebot.v3"
 )
 
 // Logger returns a middleware that logs incoming updates.

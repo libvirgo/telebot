@@ -233,6 +233,7 @@ func (b *Bot) Start() {
 		select {
 		// handle incoming updates
 		case upd := <-b.Updates:
+			fmt.Printf("get update: %+v\n", upd)
 			b.ProcessUpdate(upd)
 			// call to stop polling
 		case confirm := <-b.stop:
