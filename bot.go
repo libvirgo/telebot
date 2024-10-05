@@ -233,7 +233,7 @@ func (b *Bot) Start() {
 		select {
 		// handle incoming updates
 		case upd := <-b.Updates:
-			fmt.Printf("receive a message from telegram.")
+			fmt.Printf("receive a message from telegram.\n")
 			b.ProcessUpdate(upd)
 			// call to stop polling
 		case confirm := <-b.stop:
